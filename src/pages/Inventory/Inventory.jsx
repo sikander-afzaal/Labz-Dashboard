@@ -167,6 +167,12 @@ export default function Inventory() {
                 <SplideSlide>
                   <NftBigBox img={"./assets/hulk.jpg"} text={"TNES"} />
                 </SplideSlide>
+                <SplideSlide>
+                  <NftBigBox img={"./assets/hulk.jpg"} text={"TNES"} />
+                </SplideSlide>
+                <SplideSlide>
+                  <NftBigBox img={"./assets/hulk.jpg"} text={"TNES"} />
+                </SplideSlide>
               </Splide>
             </div>
             <div className="inventory-row">
@@ -198,6 +204,15 @@ export default function Inventory() {
                 }}
                 aria-label="My Favorite Images"
               >
+                <SplideSlide>
+                  <NftBigBox img={"./assets/hulk.jpg"} text={"TNES"} />
+                </SplideSlide>
+                <SplideSlide>
+                  <NftBigBox img={"./assets/hulk.jpg"} text={"TNES"} />
+                </SplideSlide>
+                <SplideSlide>
+                  <NftBigBox img={"./assets/hulk.jpg"} text={"TNES"} />
+                </SplideSlide>
                 <SplideSlide>
                   <NftBigBox img={"./assets/hulk.jpg"} text={"TNES"} />
                 </SplideSlide>
