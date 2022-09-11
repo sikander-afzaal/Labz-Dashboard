@@ -13,7 +13,7 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Register />} />
+        {/* <Route path="/" element={<Register />} />
 
         <Route path="/terms-conditions" element={<TermsConditions />} />
 
@@ -21,9 +21,9 @@ const App = () => {
 
         <Route path="/master-pin" element={<MasterPin />} />
 
-        <Route path="/home" element={<Home />} />
+        <Route path="/home" element={<Home />} /> */}
 
-        <Route path="/inventory" element={<Inventory />} />
+        <Route path="/" element={<Inventory />} />
       </Routes>
     </Router>
   );

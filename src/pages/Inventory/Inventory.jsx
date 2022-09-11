@@ -115,7 +115,7 @@ export default function Inventory() {
                 gap: "1rem",
                 width: "100%",
                 perMove: 1,
-                arrows: false,
+                arrows: true,
                 perPage: 4,
                 pagination: false,
                 drag: "free",
@@ -124,6 +124,7 @@ export default function Inventory() {
                     perPage: 3,
                   },
                   553: {
+                    arrows: false,
                     perPage: 2,
                   },
                 },
@@ -159,7 +160,7 @@ export default function Inventory() {
                   gap: "1rem",
                   width: "100%",
                   perMove: 1,
-                  arrows: false,
+                  arrows: true,
                   perPage: 4,
                   pagination: false,
                   drag: "free",
@@ -170,13 +171,23 @@ export default function Inventory() {
                     1000: {
                       perPage: 2,
                     },
-                    553: {
-                      perPage: 1,
-                    },
+                    553: { arrows: false, perPage: 1 },
                   },
                 }}
                 aria-label="My Favorite Images"
               >
+                <SplideSlide>
+                  <NftBigBox img={"./assets/hulk.jpg"} text={"TNES"} />
+                </SplideSlide>
+                <SplideSlide>
+                  <NftBigBox img={"./assets/hulk.jpg"} text={"TNES"} />
+                </SplideSlide>
+                <SplideSlide>
+                  <NftBigBox img={"./assets/hulk.jpg"} text={"TNES"} />
+                </SplideSlide>
+                <SplideSlide>
+                  <NftBigBox img={"./assets/hulk.jpg"} text={"TNES"} />
+                </SplideSlide>
                 <SplideSlide>
                   <NftBigBox img={"./assets/hulk.jpg"} text={"TNES"} />
                 </SplideSlide>
@@ -198,7 +209,7 @@ export default function Inventory() {
                   gap: "1rem",
                   width: "100%",
                   perMove: 1,
-                  arrows: false,
+                  arrows: true,
                   perPage: 4,
                   pagination: false,
                   drag: "free",
@@ -209,13 +220,14 @@ export default function Inventory() {
                     1000: {
                       perPage: 2,
                     },
-                    553: {
-                      perPage: 1,
-                    },
+                    553: { arrows: false, perPage: 1 },
                   },
                 }}
                 aria-label="My Favorite Images"
               >
+                <SplideSlide>
+                  <NftBigBox img={"./assets/hulk.jpg"} text={"TNES"} />
+                </SplideSlide>
                 <SplideSlide>
                   <NftBigBox img={"./assets/hulk.jpg"} text={"TNES"} />
                 </SplideSlide>
