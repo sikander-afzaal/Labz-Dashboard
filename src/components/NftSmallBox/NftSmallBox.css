@@ -1,0 +1,35 @@
+.inventory-box {
+  width: 100%;
+  height: 180px;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  isolation: isolate;
+}
+.inventory-box:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.inven-box-text {
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  color: white;
+  transform: translateX(-50%);
+  z-index: 2;
+  text-transform: capitalize;
+  font-size: 20px;
+  filter: contrast(0.7);
+}
+.inventory-box img {
+  max-width: 100%;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
