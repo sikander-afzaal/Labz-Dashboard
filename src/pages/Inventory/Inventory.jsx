@@ -142,7 +142,6 @@ export default function Inventory() {
               </div>
               <Splide
                 options={{
-                  rewind: true,
                   gap: "1rem",
                   width: "100%",
                   type: "loop",
@@ -177,7 +176,6 @@ export default function Inventory() {
               </div>
               <Splide
                 options={{
-                  rewind: true,
                   gap: "1rem",
                   width: "100%",
                   type: "loop",
