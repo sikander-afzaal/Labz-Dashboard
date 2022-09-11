@@ -114,23 +114,37 @@ export default function Inventory() {
                 rewind: true,
                 gap: "1rem",
                 width: "100%",
-                type: "loop",
                 perMove: 1,
                 arrows: false,
-                perPage: 4.5,
+                perPage: 4,
                 pagination: false,
-                drag: true,
+                drag: "free",
                 breakpoints: {
                   1000: {
-                    perPage: 3.5,
+                    perPage: 3,
                   },
                   553: {
-                    perPage: 2.5,
+                    perPage: 2,
                   },
                 },
               }}
               aria-label="My Favorite Images"
             >
+              <SplideSlide>
+                <NftSmallBox img={"./assets/hulk.jpg"} text={"Collectibles"} />
+              </SplideSlide>
+              <SplideSlide>
+                <NftSmallBox img={"./assets/hulk.jpg"} text={"Collectibles"} />
+              </SplideSlide>
+              <SplideSlide>
+                <NftSmallBox img={"./assets/hulk.jpg"} text={"Collectibles"} />
+              </SplideSlide>
+              <SplideSlide>
+                <NftSmallBox img={"./assets/hulk.jpg"} text={"Collectibles"} />
+              </SplideSlide>
+              <SplideSlide>
+                <NftSmallBox img={"./assets/hulk.jpg"} text={"Collectibles"} />
+              </SplideSlide>
               <SplideSlide>
                 <NftSmallBox img={"./assets/hulk.jpg"} text={"Collectibles"} />
               </SplideSlide>
@@ -144,21 +158,20 @@ export default function Inventory() {
                 options={{
                   gap: "1rem",
                   width: "100%",
-                  type: "loop",
                   perMove: 1,
                   arrows: false,
-                  perPage: 3.5,
+                  perPage: 4,
                   pagination: false,
-                  drag: true,
+                  drag: "free",
                   breakpoints: {
                     1400: {
-                      perPage: 2.5,
+                      perPage: 3,
                     },
                     1000: {
                       perPage: 2,
                     },
                     553: {
-                      perPage: 1.1,
+                      perPage: 1,
                     },
                   },
                 }}
@@ -184,21 +197,20 @@ export default function Inventory() {
                 options={{
                   gap: "1rem",
                   width: "100%",
-                  type: "loop",
                   perMove: 1,
                   arrows: false,
-                  perPage: 3.5,
+                  perPage: 4,
                   pagination: false,
-                  drag: true,
+                  drag: "free",
                   breakpoints: {
                     1400: {
-                      perPage: 2.5,
+                      perPage: 3,
                     },
                     1000: {
                       perPage: 2,
                     },
                     553: {
-                      perPage: 1.1,
+                      perPage: 1,
                     },
                   },
                 }}
