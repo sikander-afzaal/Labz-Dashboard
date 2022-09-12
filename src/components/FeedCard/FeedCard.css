@@ -1,0 +1,97 @@
+.feed-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  max-width: 400px;
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+}
+.top-feed-card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  width: 100%;
+  background-color: rgb(86, 86, 86);
+}
+.top-feed-card img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid white;
+  object-fit: contain;
+}
+.top-feed-card p {
+  color: white;
+  font-size: 14px;
+}
+.main-feed-img {
+  max-width: 100%;
+  object-fit: contain;
+}
+.bottom-name-feed {
+  background-color: rgb(86, 86, 86);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.name-feed,
+.view-store {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 10px;
+  background-color: white;
+  color: black;
+}
+.name-feed h2 {
+  font-weight: 400;
+  font-size: 16px;
+}
+.name-feed p {
+  font-size: 14px;
+}
+.caption {
+  font-weight: 400;
+  color: white;
+  font-size: 16px;
+  padding: 10px 10px;
+  line-height: 1.4;
+}
+.view-store button {
+  background-color: rgb(53, 53, 53);
+  color: white;
+  padding: 10px 20px;
+  font-size: 13px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+.view-store p {
+  font-size: 18px;
+}
+.like-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 15px 15px;
+}
+.like-row div,
+.like-row p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+.like-row div svg {
+  font-size: 20px;
+  cursor: pointer;
+}

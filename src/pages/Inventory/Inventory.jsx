@@ -92,7 +92,7 @@ export default function Inventory() {
               <FontAwesomeIcon icon={faRotate} />
               <span>Swap</span>
             </NavLink>
-            <NavLink to={"/path"}>
+            <NavLink to={"/feed"}>
               <FontAwesomeIcon icon={faChartLine} />
               <span>Activity</span>
             </NavLink>
@@ -136,7 +136,7 @@ export default function Inventory() {
             <FontAwesomeIcon icon={faRotate} />
             <span>Swap</span>
           </NavLink>
-          <NavLink to={"/path"}>
+          <NavLink to={"/feed"}>
             <FontAwesomeIcon icon={faChartLine} />
             <span>Activity</span>
           </NavLink>
