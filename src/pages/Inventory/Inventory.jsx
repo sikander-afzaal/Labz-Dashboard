@@ -4,17 +4,16 @@ import Footer from "../../components/Footer/Footer";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import { faUser, faPaste } from "@fortawesome/free-regular-svg-icons";
+import {
+  faUser,
+  faPaste,
+  faWindowMaximize,
+} from "@fortawesome/free-regular-svg-icons";
 
 import {
   faChevronLeft,
-  faArrowRightArrowLeft,
-  faRotate,
-  faHorse,
-  faCoins,
-  faChartLine,
-  faGrip,
-  faGear,
+  faStore,
+  faLayerGroup,
 } from "@fortawesome/free-solid-svg-icons";
 
 import { NavLink, Outlet, useNavigate } from "react-router-dom";
@@ -38,7 +37,7 @@ export default function Inventory() {
               onClick={() => navigate(-1)}
             />
 
-            <img src="assets/logo-gif.gif" alt="logo" />
+            {/* <img src="assets/logo-gif.gif" alt="logo" /> */}
           </div>
 
           <div
@@ -77,32 +76,24 @@ export default function Inventory() {
               to={"/"}
               className={(isActive) => (isActive ? " inventory__selected" : "")}
             >
-              <FontAwesomeIcon icon={faHorse} />
-              <span>NFT</span>
+              <FontAwesomeIcon icon={faStore} />
+              <span>Store</span>
             </NavLink>
             <NavLink to={"/collection"}>
-              <FontAwesomeIcon icon={faCoins} />
-              <span>Tokens</span>
-            </NavLink>
-            <NavLink to={"/path"}>
-              <FontAwesomeIcon icon={faArrowRightArrowLeft} />
-              <span>Transactions</span>
-            </NavLink>
-            <NavLink to={"/path"}>
-              <FontAwesomeIcon icon={faRotate} />
-              <span>Swap</span>
+              <FontAwesomeIcon icon={faLayerGroup} />
+              <span>Collection</span>
             </NavLink>
             <NavLink to={"/feed"}>
-              <FontAwesomeIcon icon={faChartLine} />
-              <span>Activity</span>
+              <FontAwesomeIcon icon={faWindowMaximize} />
+              <span>Feed</span>
             </NavLink>
             <NavLink to={"/path"}>
-              <FontAwesomeIcon icon={faGrip} />
-              <span>App</span>
+              <FontAwesomeIcon icon={faStore} />
+              <span>Market</span>
             </NavLink>
-            <NavLink to={"/path"}>
-              <FontAwesomeIcon icon={faGear} />
-              <span>Settings</span>
+            <NavLink to={"/feed"}>
+              <FontAwesomeIcon icon={faUser} />
+              <span>Profile</span>
             </NavLink>
           </div>
 
@@ -118,35 +109,24 @@ export default function Inventory() {
             to={"/"}
             className={(isActive) => (isActive ? " inventory__selected" : "")}
           >
-            <FontAwesomeIcon icon={faHorse} />
-            <span>NFT</span>
+            <FontAwesomeIcon icon={faStore} />
+            <span>Store</span>
           </NavLink>
-          <NavLink
-            to={"/collection"}
-            className={(isActive) => (isActive ? " inventory__selected" : "")}
-          >
-            <FontAwesomeIcon icon={faCoins} />
-            <span>Tokens</span>
-          </NavLink>
-          <NavLink to={"/path"}>
-            <FontAwesomeIcon icon={faArrowRightArrowLeft} />
-            <span>Transactions</span>
-          </NavLink>
-          <NavLink to={"/path"}>
-            <FontAwesomeIcon icon={faRotate} />
-            <span>Swap</span>
+          <NavLink to={"/collection"}>
+            <FontAwesomeIcon icon={faLayerGroup} />
+            <span>Collection</span>
           </NavLink>
           <NavLink to={"/feed"}>
-            <FontAwesomeIcon icon={faChartLine} />
-            <span>Activity</span>
+            <FontAwesomeIcon icon={faWindowMaximize} />
+            <span>Feed</span>
           </NavLink>
           <NavLink to={"/path"}>
-            <FontAwesomeIcon icon={faGrip} />
-            <span>App</span>
+            <FontAwesomeIcon icon={faStore} />
+            <span>Market</span>
           </NavLink>
-          <NavLink to={"/path"}>
-            <FontAwesomeIcon icon={faGear} />
-            <span>Settings</span>
+          <NavLink to={"/feed"}>
+            <FontAwesomeIcon icon={faUser} />
+            <span>Profile</span>
           </NavLink>
         </div>
       </div>

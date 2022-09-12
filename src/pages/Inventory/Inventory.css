@@ -3,7 +3,7 @@
 
   display: flex;
   flex-direction: column;
-  background-color: black;
+  background-color: #4f4f4f;
   isolation: isolate;
   min-height: 100vh;
 }
@@ -11,6 +11,7 @@
 .header__wrapper {
   display: flex;
   justify-content: center;
+  background-color: #2d2d2d;
 }
 
 .inventory__header {
@@ -53,7 +54,7 @@
 .inventory__topWrapper {
   display: flex;
   justify-content: center;
-  background: linear-gradient(to right, #7a35e8, #c02df0);
+  background: #2d2d2d;
   z-index: -1;
 }
 
@@ -152,13 +153,14 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  max-width: 600px;
+  max-width: 100%;
+  background-color: #2d2d2d;
 }
 
 .inventory__footer > a {
   font-size: 10px;
   text-align: center;
-  color: rgb(109 45 231);
+  color: white;
   text-decoration: underline;
   display: flex;
   flex-direction: column;
@@ -178,7 +180,7 @@
 }
 
 .inventory__selected {
-  background-color: rgb(109 45 231);
+  background-color: #28a6bb;
   color: white !important;
   text-decoration: none !important;
 }
@@ -196,10 +198,13 @@
   flex-direction: column;
   width: 15vw;
   max-width: 100%;
-  background-color: hsla(261, 79%, 54%, 0.3);
+  background-color: #2d2d2d;
   border-radius: 0 36px 36px 0;
   margin-right: 20px;
   margin-left: -20px;
+  max-height: 800px;
+  position: sticky;
+  top: 90px;
 }
 
 .inventory__centerLeft > a {
@@ -230,12 +235,12 @@
 
 .inventory__centerLeft > div:hover,
 .inventory__footer > div:hover {
-  background-color: hsla(261, 79%, 54%, 0.4);
+  background-color: #28a6bb;
   color: white !important;
 }
 
 .inventory__selected:hover {
-  background-color: rgb(109 45 231) !important;
+  background-color: #28a6bb !important;
 }
 .inventory-row {
   display: flex;
