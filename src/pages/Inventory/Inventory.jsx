@@ -6,9 +6,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { faUser, faPaste } from "@fortawesome/free-regular-svg-icons";
 
-import { Splide, SplideSlide } from "@splidejs/react-splide";
-import "@splidejs/react-splide/css";
-
 import {
   faChevronLeft,
   faArrowRightArrowLeft,
@@ -20,12 +17,10 @@ import {
   faGear,
 } from "@fortawesome/free-solid-svg-icons";
 
-import { useNavigate } from "react-router-dom";
+import { NavLink, Outlet, useNavigate } from "react-router-dom";
 
 import "./Inventory.css";
 import ProfileDropdown from "../../components/ProfileDropdown/ProfileDropdown";
-import NftSmallBox from "../../components/NftSmallBox/NftSmallBox";
-import NftBigBox from "../../components/NftBigBox/NftBigBox";
 
 export default function Inventory() {
   const navigate = useNavigate();
@@ -78,204 +73,81 @@ export default function Inventory() {
       <div className="inventory__centerWrapper">
         <div className="inventory__center">
           <div className="inventory__centerLeft">
-            <div className="inventory__selected">
+            <NavLink
+              to={"/"}
+              className={(isActive) => (isActive ? " inventory__selected" : "")}
+            >
               <FontAwesomeIcon icon={faHorse} />
               <span>NFT</span>
-            </div>
-            <div>
+            </NavLink>
+            <NavLink to={"/collection"}>
               <FontAwesomeIcon icon={faCoins} />
               <span>Tokens</span>
-            </div>
-            <div>
+            </NavLink>
+            <NavLink to={"/path"}>
               <FontAwesomeIcon icon={faArrowRightArrowLeft} />
               <span>Transactions</span>
-            </div>
-            <div>
+            </NavLink>
+            <NavLink to={"/path"}>
               <FontAwesomeIcon icon={faRotate} />
               <span>Swap</span>
-            </div>
-            <div>
+            </NavLink>
+            <NavLink to={"/path"}>
               <FontAwesomeIcon icon={faChartLine} />
               <span>Activity</span>
-            </div>
-            <div>
+            </NavLink>
+            <NavLink to={"/path"}>
               <FontAwesomeIcon icon={faGrip} />
               <span>App</span>
-            </div>
-            <div>
+            </NavLink>
+            <NavLink to={"/path"}>
               <FontAwesomeIcon icon={faGear} />
               <span>Settings</span>
-            </div>
+            </NavLink>
           </div>
 
           <div className="inventory__centerRight">
-            <Splide
-              options={{
-                rewind: true,
-                gap: "1rem",
-                width: "100%",
-                perMove: 1,
-                arrows: true,
-                perPage: 4,
-                pagination: false,
-                drag: "free",
-                breakpoints: {
-                  1000: {
-                    perPage: 3,
-                  },
-                  553: {
-                    arrows: false,
-                    perPage: 2,
-                  },
-                },
-              }}
-              aria-label="My Favorite Images"
-            >
-              <SplideSlide>
-                <NftSmallBox img={"./assets/hulk.jpg"} text={"Collectibles"} />
-              </SplideSlide>
-              <SplideSlide>
-                <NftSmallBox img={"./assets/hulk.jpg"} text={"Collectibles"} />
-              </SplideSlide>
-              <SplideSlide>
-                <NftSmallBox img={"./assets/hulk.jpg"} text={"Collectibles"} />
-              </SplideSlide>
-              <SplideSlide>
-                <NftSmallBox img={"./assets/hulk.jpg"} text={"Collectibles"} />
-              </SplideSlide>
-              <SplideSlide>
-                <NftSmallBox img={"./assets/hulk.jpg"} text={"Collectibles"} />
-              </SplideSlide>
-              <SplideSlide>
-                <NftSmallBox img={"./assets/hulk.jpg"} text={"Collectibles"} />
-              </SplideSlide>
-            </Splide>
-            <div className="inventory-row">
-              <div className="line-div">
-                <h1>Latest Drops</h1>
-                <div className="line"></div>
-              </div>
-              <Splide
-                options={{
-                  gap: "1rem",
-                  width: "100%",
-                  perMove: 1,
-                  arrows: true,
-                  perPage: 4,
-                  pagination: false,
-                  drag: "free",
-                  breakpoints: {
-                    1400: {
-                      perPage: 3,
-                    },
-                    1000: {
-                      perPage: 2,
-                    },
-                    553: { arrows: false, perPage: 1 },
-                  },
-                }}
-                aria-label="My Favorite Images"
-              >
-                <SplideSlide>
-                  <NftBigBox img={"./assets/hulk.jpg"} text={"TNES"} />
-                </SplideSlide>
-                <SplideSlide>
-                  <NftBigBox img={"./assets/hulk.jpg"} text={"TNES"} />
-                </SplideSlide>
-                <SplideSlide>
-                  <NftBigBox img={"./assets/hulk.jpg"} text={"TNES"} />
-                </SplideSlide>
-                <SplideSlide>
-                  <NftBigBox img={"./assets/hulk.jpg"} text={"TNES"} />
-                </SplideSlide>
-                <SplideSlide>
-                  <NftBigBox img={"./assets/hulk.jpg"} text={"TNES"} />
-                </SplideSlide>
-                <SplideSlide>
-                  <NftBigBox img={"./assets/hulk.jpg"} text={"TNES"} />
-                </SplideSlide>
-                <SplideSlide>
-                  <NftBigBox img={"./assets/hulk.jpg"} text={"TNES"} />
-                </SplideSlide>
-              </Splide>
-            </div>
-            <div className="inventory-row">
-              <div className="line-div">
-                <h1>Collectibles</h1>
-                <div className="line"></div>
-              </div>
-              <Splide
-                options={{
-                  gap: "1rem",
-                  width: "100%",
-                  perMove: 1,
-                  arrows: true,
-                  perPage: 4,
-                  pagination: false,
-                  drag: "free",
-                  breakpoints: {
-                    1400: {
-                      perPage: 3,
-                    },
-                    1000: {
-                      perPage: 2,
-                    },
-                    553: { arrows: false, perPage: 1 },
-                  },
-                }}
-                aria-label="My Favorite Images"
-              >
-                <SplideSlide>
-                  <NftBigBox img={"./assets/hulk.jpg"} text={"TNES"} />
-                </SplideSlide>
-                <SplideSlide>
-                  <NftBigBox img={"./assets/hulk.jpg"} text={"TNES"} />
-                </SplideSlide>
-                <SplideSlide>
-                  <NftBigBox img={"./assets/hulk.jpg"} text={"TNES"} />
-                </SplideSlide>
-                <SplideSlide>
-                  <NftBigBox img={"./assets/hulk.jpg"} text={"TNES"} />
-                </SplideSlide>
-                <SplideSlide>
-                  <NftBigBox img={"./assets/hulk.jpg"} text={"TNES"} />
-                </SplideSlide>
-              </Splide>
-            </div>
+            <Outlet />
           </div>
         </div>
       </div>
 
       <div className="inventory__footerWrapper">
         <div className="inventory__footer">
-          <div className="inventory__selected">
+          <NavLink
+            to={"/"}
+            className={(isActive) => (isActive ? " inventory__selected" : "")}
+          >
             <FontAwesomeIcon icon={faHorse} />
             <span>NFT</span>
-          </div>
-          <div>
+          </NavLink>
+          <NavLink
+            to={"/collection"}
+            className={(isActive) => (isActive ? " inventory__selected" : "")}
+          >
             <FontAwesomeIcon icon={faCoins} />
             <span>Tokens</span>
-          </div>
-          <div>
+          </NavLink>
+          <NavLink to={"/path"}>
             <FontAwesomeIcon icon={faArrowRightArrowLeft} />
             <span>Transactions</span>
-          </div>
-          <div>
+          </NavLink>
+          <NavLink to={"/path"}>
             <FontAwesomeIcon icon={faRotate} />
             <span>Swap</span>
-          </div>
-          <div>
+          </NavLink>
+          <NavLink to={"/path"}>
             <FontAwesomeIcon icon={faChartLine} />
             <span>Activity</span>
-          </div>
-          <div>
+          </NavLink>
+          <NavLink to={"/path"}>
             <FontAwesomeIcon icon={faGrip} />
             <span>App</span>
-          </div>
-          <div>
+          </NavLink>
+          <NavLink to={"/path"}>
             <FontAwesomeIcon icon={faGear} />
             <span>Settings</span>
-          </div>
+          </NavLink>
         </div>
       </div>
 

@@ -8,6 +8,8 @@ import Home from "./pages/Home/Home";
 import Inventory from "./pages/Inventory/Inventory";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Dashboard__NFT from "./pages/Dashboard__NFT/Dashboard__NFT";
+import Collection from "./pages/Collection/Collection";
 
 const App = () => {
   return (
@@ -23,7 +25,10 @@ const App = () => {
 
         <Route path="/home" element={<Home />} /> */}
 
-        <Route path="/" element={<Inventory />} />
+        <Route path="/" element={<Inventory />}>
+          <Route path="" element={<Dashboard__NFT />} />
+          <Route path="/collection" element={<Collection />} />
+        </Route>
       </Routes>
     </Router>
   );
