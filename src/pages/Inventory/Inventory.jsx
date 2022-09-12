@@ -37,7 +37,7 @@ export default function Inventory() {
               onClick={() => navigate(-1)}
             />
 
-            {/* <img src="assets/logo-gif.gif" alt="logo" /> */}
+            <img src="assets/logo.svg" alt="logo" />
           </div>
 
           <div
