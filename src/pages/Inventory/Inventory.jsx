@@ -28,6 +28,12 @@ export default function Inventory() {
 
   return (
     <div className="inventory">
+      <div
+        className={`overlay ${showDropdown ? "open-overlay" : ""}`}
+        onClick={() => {
+          setShowDropdown(false);
+        }}
+      ></div>
       <div className="header__wrapper">
         <div className="inventory__header">
           <div className="inventory__headerLeft">
