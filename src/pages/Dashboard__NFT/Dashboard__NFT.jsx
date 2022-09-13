@@ -13,18 +13,14 @@ function Dashboard__NFT() {
           rewind: true,
           gap: "1rem",
           width: "100%",
+          autoWidth: true,
           perMove: 1,
           arrows: true,
-          perPage: 4,
           pagination: false,
           drag: "free",
           breakpoints: {
-            1000: {
-              perPage: 3,
-            },
             553: {
               arrows: false,
-              perPage: 2,
             },
           },
         }}
