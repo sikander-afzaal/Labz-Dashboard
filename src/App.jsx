@@ -12,6 +12,7 @@ import Dashboard__NFT from "./pages/Dashboard__NFT/Dashboard__NFT";
 import Collection from "./pages/Collection/Collection";
 import Feed from "./pages/Feed/Feed";
 import Market from "./pages/Market/Market";
+import Profile from "./pages/Profile/Profile";
 
 const App = () => {
   return (
@@ -32,6 +33,7 @@ const App = () => {
           <Route path="/collection" element={<Collection />} />
           <Route path="/feed" element={<Feed />} />
           <Route path="/market" element={<Market />} />
+          <Route path="/profile" element={<Profile />} />
         </Route>
       </Routes>
     </Router>
