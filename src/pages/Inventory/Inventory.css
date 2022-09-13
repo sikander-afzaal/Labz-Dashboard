@@ -196,15 +196,16 @@
 .inventory__centerLeft {
   display: none;
   flex-direction: column;
-  width: 15vw;
+  width: 300px;
   max-width: 100%;
   background-color: #2d2d2d;
   border-radius: 0 36px 36px 0;
   margin-right: 20px;
   margin-left: -20px;
-  max-height: 800px;
+  max-height: 850px;
+  height: 100vh;
   position: sticky;
-  top: 20px;
+  top: 0px;
 }
 
 .inventory__centerLeft > a {
@@ -275,6 +276,7 @@
 @media (min-width: 800px) {
   .inventory__centerLeft {
     display: flex;
+    border-radius: 0px 36px 36px 0px;
   }
 
   .inventory__footer {
@@ -282,7 +284,8 @@
   }
 
   .inventory__centerRight {
-    padding-left: 40px;
+    padding-left: 20px;
+    width: calc(100% - 300px);
   }
   .line-div {
     height: 40px;
