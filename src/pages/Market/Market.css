@@ -1,0 +1,64 @@
+.market {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 10px;
+}
+.market-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.market-icon {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.market-icon svg {
+  width: 50px;
+  height: 50px;
+  background-color: var(--dark-black);
+  padding: 13px;
+  color: white;
+  border-radius: 5px;
+  box-sizing: border-box !important;
+}
+.market-icon p {
+  font-size: 16px;
+  color: white;
+}
+.browse-all {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 500px;
+  width: 95%;
+  background-color: var(--dark-black);
+  color: white;
+  padding: 20px 15px;
+  border-radius: 10px;
+}
+.browse-all p {
+  font-size: 14px;
+}
+.browse-all svg {
+  font-size: 18px;
+}
+@media screen and (max-width: 447px) {
+  .market-row {
+    justify-content: space-between;
+  }
+  .market-icon svg {
+    height: 35px;
+    width: 35px;
+    padding: 7px;
+  }
+  .market-icon p {
+    font-size: 14px;
+  }
+}

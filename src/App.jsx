@@ -11,6 +11,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Dashboard__NFT from "./pages/Dashboard__NFT/Dashboard__NFT";
 import Collection from "./pages/Collection/Collection";
 import Feed from "./pages/Feed/Feed";
+import Market from "./pages/Market/Market";
 
 const App = () => {
   return (
@@ -30,6 +31,7 @@ const App = () => {
           <Route path="" element={<Dashboard__NFT />} />
           <Route path="/collection" element={<Collection />} />
           <Route path="/feed" element={<Feed />} />
+          <Route path="/market" element={<Market />} />
         </Route>
       </Routes>
     </Router>

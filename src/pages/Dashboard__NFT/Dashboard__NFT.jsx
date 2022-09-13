@@ -4,6 +4,7 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import NftSmallBox from "../../components/NftSmallBox/NftSmallBox";
 import NftBigBox from "../../components/NftBigBox/NftBigBox";
+import MarketCard from "../../components/MarketCard/MarketCard";
 function Dashboard__NFT() {
   return (
     <>
@@ -59,17 +60,11 @@ function Dashboard__NFT() {
             width: "100%",
             perMove: 1,
             arrows: true,
-            perPage: 4,
+            autoWidth: true,
             pagination: false,
             drag: "free",
             breakpoints: {
-              1400: {
-                perPage: 3,
-              },
-              1000: {
-                perPage: 2,
-              },
-              553: { arrows: false, perPage: 1 },
+              553: { arrows: false },
             },
           }}
           aria-label="My Favorite Images"
@@ -108,17 +103,11 @@ function Dashboard__NFT() {
             width: "100%",
             perMove: 1,
             arrows: true,
-            perPage: 4,
+            autoWidth: true,
             pagination: false,
             drag: "free",
             breakpoints: {
-              1400: {
-                perPage: 3,
-              },
-              1000: {
-                perPage: 2,
-              },
-              553: { arrows: false, perPage: 1 },
+              553: { arrows: false },
             },
           }}
           aria-label="My Favorite Images"
@@ -139,6 +128,176 @@ function Dashboard__NFT() {
             <NftBigBox img={"./assets/hulk.jpg"} text={"TNES"} />
           </SplideSlide>
         </Splide>
+        <div className="inventory-row">
+          <div className="line-div">
+            <h1>Collectibles</h1>
+            <div className="line"></div>
+          </div>
+          <Splide
+            options={{
+              gap: "2rem",
+              width: "100%",
+              perMove: 1,
+              arrows: true,
+              autoWidth: true,
+              pagination: false,
+              drag: "free",
+              breakpoints: {
+                553: { arrows: false },
+              },
+            }}
+            className="market-slider"
+          >
+            <SplideSlide>
+              {" "}
+              <MarketCard
+                img={"./assets/hulk.jpg"}
+                rarity="Uncommon+"
+                name={"Disney D"}
+                number="671"
+              />
+            </SplideSlide>
+            <SplideSlide>
+              {" "}
+              <MarketCard
+                img={"./assets/hulk.jpg"}
+                rarity="Uncommon+"
+                name={"Disney D"}
+                number="671"
+              />
+            </SplideSlide>
+            <SplideSlide>
+              {" "}
+              <MarketCard
+                img={"./assets/hulk.jpg"}
+                rarity="Uncommon+"
+                name={"Disney D"}
+                number="671"
+              />
+            </SplideSlide>
+            <SplideSlide>
+              {" "}
+              <MarketCard
+                img={"./assets/hulk.jpg"}
+                rarity="Uncommon+"
+                name={"Disney D"}
+                number="671"
+              />
+            </SplideSlide>
+            <SplideSlide>
+              {" "}
+              <MarketCard
+                img={"./assets/hulk.jpg"}
+                rarity="Uncommon+"
+                name={"Disney D"}
+                number="671"
+              />
+            </SplideSlide>
+            <SplideSlide>
+              {" "}
+              <MarketCard
+                img={"./assets/hulk.jpg"}
+                rarity="Uncommon+"
+                name={"Disney D"}
+                number="671"
+              />
+            </SplideSlide>
+            <SplideSlide>
+              {" "}
+              <MarketCard
+                img={"./assets/hulk.jpg"}
+                rarity="Uncommon+"
+                name={"Disney D"}
+                number="671"
+              />
+            </SplideSlide>
+          </Splide>
+        </div>{" "}
+        <div className="inventory-row">
+          <div className="line-div">
+            <h1>Comics</h1>
+            <div className="line"></div>
+          </div>
+          <Splide
+            options={{
+              gap: "2rem",
+              width: "100%",
+              perMove: 1,
+              arrows: true,
+              autoWidth: true,
+              pagination: false,
+              drag: "free",
+              breakpoints: {
+                553: { arrows: false },
+              },
+            }}
+            className="market-slider"
+          >
+            <SplideSlide>
+              {" "}
+              <MarketCard
+                img={"./assets/hulk.jpg"}
+                rarity="Uncommon+"
+                name={"Disney D"}
+                number="671"
+              />
+            </SplideSlide>
+            <SplideSlide>
+              {" "}
+              <MarketCard
+                img={"./assets/hulk.jpg"}
+                rarity="Uncommon+"
+                name={"Disney D"}
+                number="671"
+              />
+            </SplideSlide>
+            <SplideSlide>
+              {" "}
+              <MarketCard
+                img={"./assets/hulk.jpg"}
+                rarity="Uncommon+"
+                name={"Disney D"}
+                number="671"
+              />
+            </SplideSlide>
+            <SplideSlide>
+              {" "}
+              <MarketCard
+                img={"./assets/hulk.jpg"}
+                rarity="Uncommon+"
+                name={"Disney D"}
+                number="671"
+              />
+            </SplideSlide>
+            <SplideSlide>
+              {" "}
+              <MarketCard
+                img={"./assets/hulk.jpg"}
+                rarity="Uncommon+"
+                name={"Disney D"}
+                number="671"
+              />
+            </SplideSlide>
+            <SplideSlide>
+              {" "}
+              <MarketCard
+                img={"./assets/hulk.jpg"}
+                rarity="Uncommon+"
+                name={"Disney D"}
+                number="671"
+              />
+            </SplideSlide>
+            <SplideSlide>
+              {" "}
+              <MarketCard
+                img={"./assets/hulk.jpg"}
+                rarity="Uncommon+"
+                name={"Disney D"}
+                number="671"
+              />
+            </SplideSlide>
+          </Splide>
+        </div>
       </div>
     </>
   );

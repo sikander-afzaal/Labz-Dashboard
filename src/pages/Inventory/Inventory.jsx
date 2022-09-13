@@ -52,7 +52,7 @@ export default function Inventory() {
       </div>
 
       <div className="inventory__topWrapper">
-        <div className="inventory__top">
+        {/* <div className="inventory__top">
           <div className="inventory__topUp">
             <h1>Adamant Duck</h1>
 
@@ -66,7 +66,7 @@ export default function Inventory() {
 
             <span className="inventory__buy">Buy ETH</span>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div className="inventory__centerWrapper">
@@ -74,24 +74,46 @@ export default function Inventory() {
           <div className="inventory__centerLeft">
             <NavLink
               to={"/"}
-              className={(isActive) => (isActive ? " inventory__selected" : "")}
+              className={({ isActive }) =>
+                isActive ? "inventory__selected" : ""
+              }
             >
               <FontAwesomeIcon icon={faStore} />
               <span>Store</span>
             </NavLink>
-            <NavLink to={"/collection"}>
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? " inventory__selected" : ""
+              }
+              to={"/collection"}
+            >
               <FontAwesomeIcon icon={faLayerGroup} />
               <span>Collection</span>
             </NavLink>
-            <NavLink to={"/feed"}>
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? "inventory__selected" : ""
+              }
+              to={"/feed"}
+            >
               <FontAwesomeIcon icon={faWindowMaximize} />
               <span>Feed</span>
             </NavLink>
-            <NavLink to={"/path"}>
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? "inventory__selected" : ""
+              }
+              to={"/market"}
+            >
               <FontAwesomeIcon icon={faStore} />
               <span>Market</span>
             </NavLink>
-            <NavLink to={"/feed"}>
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? "inventory__selected" : ""
+              }
+              to={"/profile"}
+            >
               <FontAwesomeIcon icon={faUser} />
               <span>Profile</span>
             </NavLink>
@@ -107,24 +129,46 @@ export default function Inventory() {
         <div className="inventory__footer">
           <NavLink
             to={"/"}
-            className={(isActive) => (isActive ? " inventory__selected" : "")}
+            className={({ isActive }) =>
+              isActive ? "inventory__selected" : ""
+            }
           >
             <FontAwesomeIcon icon={faStore} />
             <span>Store</span>
           </NavLink>
-          <NavLink to={"/collection"}>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? "inventory__selected" : ""
+            }
+            to={"/collection"}
+          >
             <FontAwesomeIcon icon={faLayerGroup} />
             <span>Collection</span>
           </NavLink>
-          <NavLink to={"/feed"}>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? "inventory__selected" : ""
+            }
+            to={"/feed"}
+          >
             <FontAwesomeIcon icon={faWindowMaximize} />
             <span>Feed</span>
           </NavLink>
-          <NavLink to={"/path"}>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? "inventory__selected" : ""
+            }
+            to={"/market"}
+          >
             <FontAwesomeIcon icon={faStore} />
             <span>Market</span>
           </NavLink>
-          <NavLink to={"/feed"}>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? "inventory__selected" : ""
+            }
+            to={"/profile"}
+          >
             <FontAwesomeIcon icon={faUser} />
             <span>Profile</span>
           </NavLink>

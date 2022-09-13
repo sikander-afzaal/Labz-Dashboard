@@ -204,7 +204,7 @@
   margin-left: -20px;
   max-height: 800px;
   position: sticky;
-  top: 90px;
+  top: 20px;
 }
 
 .inventory__centerLeft > a {
@@ -217,7 +217,7 @@
   height: 100%;
   text-decoration: none;
   cursor: pointer;
-  transition: all 0.1s;
+  transition: all 0.4s;
 }
 
 .inventory__centerLeft > a:nth-child(1) {
