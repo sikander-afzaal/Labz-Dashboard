@@ -6,6 +6,7 @@
   background-color: #4f4f4f;
   isolation: isolate;
   min-height: 100vh;
+  padding-bottom: 80px;
 }
 
 .header__wrapper {
@@ -144,7 +145,9 @@
 .inventory__footerWrapper {
   display: flex;
   justify-content: center;
-  margin-top: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .inventory__footer {
@@ -300,6 +303,9 @@
     top: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
+  }
+  .inventory {
+    padding: 0;
   }
 }
 
