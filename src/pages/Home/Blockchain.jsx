@@ -15,7 +15,7 @@ export default function Blockchain({ setSelectedBlockChain, blockchain }) {
     >
       <div>{blockchain}</div>
 
-      <Link to="/inventory" className="home__createWallet">
+      <Link to="/" className="home__createWallet">
         <FontAwesomeIcon icon={faWallet} /> Create New Wallet
       </Link>
 

@@ -57,7 +57,7 @@ export default function Inventory() {
         <div className="inventory__center">
           <div className="inventory__centerLeft">
             <NavLink
-              to={"/inventory/"}
+              to={"/"}
               className={({ isActive }) =>
                 isActive ? "inventory__selected" : ""
               }
@@ -69,7 +69,7 @@ export default function Inventory() {
               className={({ isActive }) =>
                 isActive ? " inventory__selected" : ""
               }
-              to={"inventory/collection"}
+              to={"/collection"}
             >
               <FontAwesomeIcon icon={faLayerGroup} />
               <span>Collection</span>
@@ -78,7 +78,7 @@ export default function Inventory() {
               className={({ isActive }) =>
                 isActive ? "inventory__selected" : ""
               }
-              to={"inventory/feed"}
+              to={"/feed"}
             >
               <FontAwesomeIcon icon={faWindowMaximize} />
               <span>Feed</span>
@@ -87,7 +87,7 @@ export default function Inventory() {
               className={({ isActive }) =>
                 isActive ? "inventory__selected" : ""
               }
-              to={"inventory/market"}
+              to={"/market"}
             >
               <FontAwesomeIcon icon={faStore} />
               <span>Market</span>
@@ -96,7 +96,7 @@ export default function Inventory() {
               className={({ isActive }) =>
                 isActive ? "inventory__selected" : ""
               }
-              to={"inventory/profile"}
+              to={"/profile"}
             >
               <FontAwesomeIcon icon={faUser} />
               <span>Profile</span>
@@ -112,7 +112,7 @@ export default function Inventory() {
       <div className="inventory__footerWrapper">
         <div className="inventory__footer">
           <NavLink
-            to={"/inventory/"}
+            to={"/"}
             className={({ isActive }) =>
               isActive ? "inventory__selected" : ""
             }
@@ -124,7 +124,7 @@ export default function Inventory() {
             className={({ isActive }) =>
               isActive ? "inventory__selected" : ""
             }
-            to={"inventory/collection"}
+            to={"/collection"}
           >
             <FontAwesomeIcon icon={faLayerGroup} />
             <span>Collection</span>
@@ -133,7 +133,7 @@ export default function Inventory() {
             className={({ isActive }) =>
               isActive ? "inventory__selected" : ""
             }
-            to={"inventory/feed"}
+            to={"/feed"}
           >
             <FontAwesomeIcon icon={faWindowMaximize} />
             <span>Feed</span>
@@ -142,7 +142,7 @@ export default function Inventory() {
             className={({ isActive }) =>
               isActive ? "inventory__selected" : ""
             }
-            to={"inventory/market"}
+            to={"/market"}
           >
             <FontAwesomeIcon icon={faStore} />
             <span>Market</span>
@@ -151,7 +151,7 @@ export default function Inventory() {
             className={({ isActive }) =>
               isActive ? "inventory__selected" : ""
             }
-            to={"inventory/profile"}
+            to={"/profile"}
           >
             <FontAwesomeIcon icon={faUser} />
             <span>Profile</span>

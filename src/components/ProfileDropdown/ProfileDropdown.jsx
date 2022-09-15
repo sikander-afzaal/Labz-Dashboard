@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./ProfileDropdown.css";
 
@@ -9,9 +10,9 @@ export default function ProfileDropdown({ isActive }) {
         isActive ? "profileDropdown__isActive" : ""
       }`}
     >
-      <span>Settings</span>
-      <span>Login</span>
-      <span>Signin</span>
+      <Link to={"/profile"}>Settings</Link>
+      <Link to={"/register"}>Login</Link>
+      <Link to={"/register"}>Signin</Link>
     </div>
   );
 }
