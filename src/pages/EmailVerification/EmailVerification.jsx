@@ -18,8 +18,6 @@ const EmailVerification = () => {
       <div className="verification">
         <div className="verification__header">
           <FontAwesomeIcon icon={faChevronLeft} onClick={() => navigate(-1)} />
-
-          <img src="assets/logo-gif.gif" alt="logo" />
         </div>
 
         <div className="verification__content">

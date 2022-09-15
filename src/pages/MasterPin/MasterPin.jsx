@@ -20,8 +20,6 @@ const MasterPin = () => {
       <div className="masterpin">
         <div className="masterpin__header">
           <FontAwesomeIcon icon={faChevronLeft} onClick={() => navigate(-1)} />
-
-          <img src="assets/logo-gif.gif" alt="logo" />
         </div>
 
         <div className="masterpin__content">

@@ -14,7 +14,7 @@ function Profile() {
   return (
     <div className="profile">
       <div className="top-profile">
-        <img src="./assets/hulk.jpg" alt="" />
+        <img src="/assets/hulk.jpg" alt="" />
         <div className="profile-info">
           <h1>Hulk23</h1>
           <div className="bottom-info">

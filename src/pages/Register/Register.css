@@ -109,6 +109,7 @@
 
 .register__mainText {
   font-size: 18px;
+  color: white;
 }
 
 .register__form {
@@ -123,7 +124,7 @@
   font-size: 16px;
   padding-left: 0.75rem;
   background-color: transparent;
-  border: 2px solid rgb(109 45 231);
+  border: 2px solid var(--neon-blue);
   border-radius: 4px;
   color: white;
   outline: none;
@@ -143,6 +144,6 @@
 }
 
 .register__switchToLogin > span {
-  color: rgb(109 45 231);
+  color: var(--neon-blue);
   cursor: pointer;
 }

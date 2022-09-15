@@ -18,7 +18,7 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        {/* <Route path="/" element={<Register />} />
+        <Route path="/" element={<Register />} />
 
         <Route path="/terms-conditions" element={<TermsConditions />} />
 
@@ -26,14 +26,14 @@ const App = () => {
 
         <Route path="/master-pin" element={<MasterPin />} />
 
-        <Route path="/home" element={<Home />} /> */}
+        <Route path="/home" element={<Home />} />
 
-        <Route path="/" element={<Inventory />}>
-          <Route path="" element={<Dashboard__NFT />} />
-          <Route path="/collection" element={<Collection />} />
-          <Route path="/feed" element={<Feed />} />
-          <Route path="/market" element={<Market />} />
-          <Route path="/profile" element={<Profile />} />
+        <Route path="/inventory" element={<Inventory />}>
+          <Route path="/inventory/" element={<Dashboard__NFT />} />
+          <Route path="inventory/collection" element={<Collection />} />
+          <Route path="inventory/feed" element={<Feed />} />
+          <Route path="inventory/market" element={<Market />} />
+          <Route path="inventory/profile" element={<Profile />} />
         </Route>
       </Routes>
     </Router>

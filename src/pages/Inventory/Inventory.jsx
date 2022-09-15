@@ -4,11 +4,7 @@ import Footer from "../../components/Footer/Footer";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import {
-  faUser,
-  faPaste,
-  faWindowMaximize,
-} from "@fortawesome/free-regular-svg-icons";
+import { faUser, faWindowMaximize } from "@fortawesome/free-regular-svg-icons";
 
 import {
   faChevronLeft,
@@ -40,10 +36,10 @@ export default function Inventory() {
             <FontAwesomeIcon
               icon={faChevronLeft}
               className="inventory__headerBack"
-              onClick={() => navigate(-1)}
+              onClick={() => navigate("/home")}
             />
 
-            <img src="assets/logo.svg" alt="logo" />
+            <img src="/assets/logo.svg" alt="logo" />
           </div>
 
           <div
@@ -57,29 +53,11 @@ export default function Inventory() {
         </div>
       </div>
 
-      <div className="inventory__topWrapper">
-        {/* <div className="inventory__top">
-          <div className="inventory__topUp">
-            <h1>Adamant Duck</h1>
-
-            <span>0.00000 ETH</span>
-          </div>
-
-          <div className="inventory__topDown">
-            <span className="inventory__id">
-              0xbcABf8779720084dB123... <FontAwesomeIcon icon={faPaste} />
-            </span>
-
-            <span className="inventory__buy">Buy ETH</span>
-          </div>
-        </div> */}
-      </div>
-
       <div className="inventory__centerWrapper">
         <div className="inventory__center">
           <div className="inventory__centerLeft">
             <NavLink
-              to={"/"}
+              to={"/inventory/"}
               className={({ isActive }) =>
                 isActive ? "inventory__selected" : ""
               }
@@ -91,7 +69,7 @@ export default function Inventory() {
               className={({ isActive }) =>
                 isActive ? " inventory__selected" : ""
               }
-              to={"/collection"}
+              to={"inventory/collection"}
             >
               <FontAwesomeIcon icon={faLayerGroup} />
               <span>Collection</span>
@@ -100,7 +78,7 @@ export default function Inventory() {
               className={({ isActive }) =>
                 isActive ? "inventory__selected" : ""
               }
-              to={"/feed"}
+              to={"inventory/feed"}
             >
               <FontAwesomeIcon icon={faWindowMaximize} />
               <span>Feed</span>
@@ -109,7 +87,7 @@ export default function Inventory() {
               className={({ isActive }) =>
                 isActive ? "inventory__selected" : ""
               }
-              to={"/market"}
+              to={"inventory/market"}
             >
               <FontAwesomeIcon icon={faStore} />
               <span>Market</span>
@@ -118,7 +96,7 @@ export default function Inventory() {
               className={({ isActive }) =>
                 isActive ? "inventory__selected" : ""
               }
-              to={"/profile"}
+              to={"inventory/profile"}
             >
               <FontAwesomeIcon icon={faUser} />
               <span>Profile</span>
@@ -134,7 +112,7 @@ export default function Inventory() {
       <div className="inventory__footerWrapper">
         <div className="inventory__footer">
           <NavLink
-            to={"/"}
+            to={"/inventory/"}
             className={({ isActive }) =>
               isActive ? "inventory__selected" : ""
             }
@@ -146,7 +124,7 @@ export default function Inventory() {
             className={({ isActive }) =>
               isActive ? "inventory__selected" : ""
             }
-            to={"/collection"}
+            to={"inventory/collection"}
           >
             <FontAwesomeIcon icon={faLayerGroup} />
             <span>Collection</span>
@@ -155,7 +133,7 @@ export default function Inventory() {
             className={({ isActive }) =>
               isActive ? "inventory__selected" : ""
             }
-            to={"/feed"}
+            to={"inventory/feed"}
           >
             <FontAwesomeIcon icon={faWindowMaximize} />
             <span>Feed</span>
@@ -164,7 +142,7 @@ export default function Inventory() {
             className={({ isActive }) =>
               isActive ? "inventory__selected" : ""
             }
-            to={"/market"}
+            to={"inventory/market"}
           >
             <FontAwesomeIcon icon={faStore} />
             <span>Market</span>
@@ -173,7 +151,7 @@ export default function Inventory() {
             className={({ isActive }) =>
               isActive ? "inventory__selected" : ""
             }
-            to={"/profile"}
+            to={"inventory/profile"}
           >
             <FontAwesomeIcon icon={faUser} />
             <span>Profile</span>

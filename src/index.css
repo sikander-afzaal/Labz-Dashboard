@@ -15,7 +15,7 @@ body {
 }
 
 .aqua-btn {
-  background-color: rgb(109 45 231);
+  background-color: var(--neon-blue);
   color: white;
   cursor: pointer;
   border: none;
@@ -40,4 +40,5 @@ body {
 }
 input::placeholder {
   font-family: Open Sans;
+  color: white;
 }

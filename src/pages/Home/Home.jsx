@@ -29,8 +29,6 @@ const Home = () => {
               icon={faChevronLeft}
               onClick={() => navigate(-1)}
             />
-
-            <img src="assets/logo-gif.gif" alt="logo" />
           </div>
           <div
             className="home__user"

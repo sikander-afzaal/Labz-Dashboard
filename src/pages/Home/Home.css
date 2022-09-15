@@ -47,9 +47,7 @@
 }
 
 .home__topWrapper {
-  border-top: 1px solid hsla(0, 0%, 0%, 10%);
   width: 100%;
-  border-bottom: 1px solid hsla(0, 0%, 0%, 10%);
   display: flex;
   justify-content: center;
 }
@@ -60,18 +58,18 @@
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  border: 2px solid rgb(109 45 231);
+  border: 2px solid var(--neon-blue);
   max-width: var(--max-width);
 }
 
 .home__topHeading {
-  color: rgb(109 45 231);
+  color: var(--neon-blue);
   font-size: 28px;
   font-weight: 400;
 }
 
 .home__topSubheading {
-  color: rgb(109 45 231);
+  color: var(--neon-blue);
   font-size: 20px;
   font-weight: 400;
 }
@@ -94,7 +92,7 @@
   height: 50px;
   font-size: 16px;
   color: white;
-  border: 2px solid rgb(109 45 231);
+  border: 2px solid var(--neon-blue);
   background-color: transparent;
   border-radius: 4px;
   box-shadow: 0 0 10px -5px black;
@@ -117,7 +115,7 @@
 
 .home__blockchainSelected > div {
   color: white;
-  background-color: rgb(109 45 231);
+  background-color: var(--neon-blue);
   padding: 1rem;
   font-weight: 300;
   font-size: 18px;
@@ -129,7 +127,7 @@
 .home__importWallet {
   background-color: transparent;
   color: white;
-  border: 2px solid rgb(109 45 231);
+  border: 2px solid var(--neon-blue);
   font-size: 18px;
   padding: 1rem;
   cursor: pointer;

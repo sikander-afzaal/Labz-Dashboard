@@ -18,8 +18,6 @@ const TermsConditions = () => {
       <div className="terms">
         <div className="terms__header">
           <FontAwesomeIcon icon={faChevronLeft} onClick={() => navigate(-1)} />
-
-          <img src="assets/logo-gif.gif" alt="logo" />
         </div>
 
         <div className="terms__container">

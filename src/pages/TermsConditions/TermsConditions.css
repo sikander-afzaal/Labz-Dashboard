@@ -24,7 +24,7 @@
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  border: 2px solid rgb(109 45 231);
+  border: 2px solid var(--neon-blue);
   border-radius: 8px;
   gap: 1.5rem;
 }
@@ -34,7 +34,7 @@
 }
 
 .terms__para > span {
-  color: rgb(109 45 231);
+  color: var(--neon-blue);
   cursor: pointer;
 }
 

@@ -12,14 +12,6 @@ const Register = () => {
       <div className="register">
         <div className="register__top">
           <div className="register__header">
-            <div className="register__logo">
-              <img
-                src="/assets/logo-gif.gif"
-                alt="Logo"
-                className="register__logoGif"
-              />
-            </div>
-
             <div className="register__headerCenter">
               <span>{showLoginPage ? "Login" : "Create Account"}</span>
             </div>
