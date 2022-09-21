@@ -13,8 +13,8 @@
 .number-card {
   position: absolute;
   right: -5px;
-  color: black;
-  background-color: white;
+  color: white;
+  background-color: var(--neon-pink);
   top: -10px;
   width: 40px;
   border-radius: 5px;
@@ -32,7 +32,7 @@
 .layer1 {
   font-size: 14px;
   color: black;
-  background-color: white;
+  background-color: var(--neon-green);
   width: 100%;
   display: flex;
   justify-content: flex-start;
@@ -48,7 +48,7 @@
   z-index: -1;
   height: 45px;
   color: black;
-  background-color: rgba(255, 255, 255, 0.667);
+  background-color: var(--neon-blue);
   width: 100%;
   display: flex;
   justify-content: space-between;

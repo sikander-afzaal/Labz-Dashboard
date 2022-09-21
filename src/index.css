@@ -9,9 +9,14 @@
 :root {
   --dark-black: #2d2d2d;
   --neon-blue: #28a6bb;
+  --neon-green: #8ffe33;
+  --neon-purple: #6833ff;
+  --neon-pink: #fe33a9;
+  --neon-light-blue: #33c3ff;
+  --neon-blue: #32ebff;
 }
 body {
-  background-color: #4f4f4f;
+  background-color: black;
 }
 
 .aqua-btn {
