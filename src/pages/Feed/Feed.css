@@ -1,6 +1,6 @@
 .feed {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: flex-start;
   flex-direction: column;
   width: 100%;
@@ -15,18 +15,39 @@
   padding: 5px 20px;
   font-weight: 400;
   cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 0.5s ease-in-out;
+}
+.category-feed h2:hover {
+  background-color: black;
+  border-color: white;
 }
 .feed-grid {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
   margin-top: 20px;
+  width: 100%;
 }
 
+@media screen and (max-width: 1279px) {
+  .feed-grid {
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .feed-grid {
+    grid-template-columns: 1fr;
+  }
+}
 @media screen and (max-width: 800px) {
   .feed-grid {
-    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 600px) {
+  .feed-grid {
+    grid-template-columns: 1fr;
   }
 }
