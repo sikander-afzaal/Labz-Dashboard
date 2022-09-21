@@ -26,6 +26,9 @@
   display: flex;
   justify-content: center;
   background-color: black;
+  position: sticky;
+  top: 0;
+  z-index: 4;
 }
 
 .inventory__header {
@@ -220,10 +223,9 @@
   border-radius: 0 36px 36px 0;
   margin-right: 20px;
   margin-left: -20px;
-  max-height: 850px;
-  height: 100vh;
+  height: calc(100vh - 136px);
   position: sticky;
-  top: 0px;
+  top: 132px;
 }
 
 .inventory__centerLeft > a {
@@ -248,7 +250,7 @@
 }
 
 .inventory__centerLeft span {
-  font-size: 14px;
+  font-size: 20px;
   cursor: pointer;
 }
 
@@ -339,7 +341,7 @@
     border-radius: 0px;
   }
   .inventory__centerLeft > a > span {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 600;
     text-transform: uppercase;
   }
@@ -347,4 +349,7 @@
   .inventory__centerLeft > a > svg {
     font-size: 22px;
   }
+}
+.inventory__centerLeft > a > svg {
+  font-size: 22px;
 }
