@@ -39,7 +39,7 @@ export default function Inventory() {
               onClick={() => navigate("/home")}
             />
 
-            <img src="/assets/logo.svg" alt="logo" />
+            <img src="/assets/logo.png" alt="logo" />
           </div>
 
           <div
