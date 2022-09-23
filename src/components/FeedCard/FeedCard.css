@@ -66,12 +66,12 @@
   line-height: 1.4;
 }
 .view-store button {
-  background-color: rgb(53, 53, 53);
+  background-color: black;
+  border: 1px solid white;
   color: white;
   padding: 10px 20px;
   font-size: 13px;
   border-radius: 10px;
-  border: none;
   cursor: pointer;
 }
 .view-store p {

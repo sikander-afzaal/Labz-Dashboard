@@ -41,7 +41,7 @@ function Profile() {
         <div className="profile-row">
           <div className="left-profile">
             <FontAwesomeIcon icon={faWallet} />
-            <p>Wallet</p>
+            <p>Crypto Wallet</p>
           </div>
           <div className="right-profile">
             <h2>0.00</h2>

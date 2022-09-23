@@ -89,12 +89,12 @@
   filter: contrast(0.7);
 }
 .grey-coll button {
-  background-color: rgb(53, 53, 53);
+  background-color: black;
+  border: 1px solid white;
   color: white;
   width: 150px;
   height: 45px;
   font-size: 16px;
   border-radius: 10px;
-  border: none;
   cursor: pointer;
 }
