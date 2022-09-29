@@ -60,7 +60,7 @@ function Market() {
           <SplideSlide>
             {" "}
             <MarketCard
-              img={"/assets/hulk.jpg"}
+              img={"/assets/coming.jpg"}
               rarity="Uncommon+"
               name={"Disney D"}
               number="671"
@@ -69,7 +69,7 @@ function Market() {
           <SplideSlide>
             {" "}
             <MarketCard
-              img={"/assets/hulk.jpg"}
+              img={"/assets/coming.jpg"}
               rarity="Uncommon+"
               name={"Disney D"}
               number="671"
@@ -78,7 +78,7 @@ function Market() {
           <SplideSlide>
             {" "}
             <MarketCard
-              img={"/assets/hulk.jpg"}
+              img={"/assets/coming.jpg"}
               rarity="Uncommon+"
               name={"Disney D"}
               number="671"
@@ -87,7 +87,7 @@ function Market() {
           <SplideSlide>
             {" "}
             <MarketCard
-              img={"/assets/hulk.jpg"}
+              img={"/assets/coming.jpg"}
               rarity="Uncommon+"
               name={"Disney D"}
               number="671"
@@ -96,7 +96,7 @@ function Market() {
           <SplideSlide>
             {" "}
             <MarketCard
-              img={"/assets/hulk.jpg"}
+              img={"/assets/coming.jpg"}
               rarity="Uncommon+"
               name={"Disney D"}
               number="671"
@@ -105,7 +105,7 @@ function Market() {
           <SplideSlide>
             {" "}
             <MarketCard
-              img={"/assets/hulk.jpg"}
+              img={"/assets/coming.jpg"}
               rarity="Uncommon+"
               name={"Disney D"}
               number="671"
@@ -114,7 +114,7 @@ function Market() {
           <SplideSlide>
             {" "}
             <MarketCard
-              img={"/assets/hulk.jpg"}
+              img={"/assets/coming.jpg"}
               rarity="Uncommon+"
               name={"Disney D"}
               number="671"
@@ -145,7 +145,7 @@ function Market() {
           <SplideSlide>
             {" "}
             <MarketCard
-              img={"/assets/hulk.jpg"}
+              img={"/assets/coming.jpg"}
               rarity="Uncommon+"
               name={"Disney D"}
               number="671"
@@ -154,7 +154,7 @@ function Market() {
           <SplideSlide>
             {" "}
             <MarketCard
-              img={"/assets/hulk.jpg"}
+              img={"/assets/coming.jpg"}
               rarity="Uncommon+"
               name={"Disney D"}
               number="671"
@@ -163,7 +163,7 @@ function Market() {
           <SplideSlide>
             {" "}
             <MarketCard
-              img={"/assets/hulk.jpg"}
+              img={"/assets/coming.jpg"}
               rarity="Uncommon+"
               name={"Disney D"}
               number="671"
@@ -172,7 +172,7 @@ function Market() {
           <SplideSlide>
             {" "}
             <MarketCard
-              img={"/assets/hulk.jpg"}
+              img={"/assets/coming.jpg"}
               rarity="Uncommon+"
               name={"Disney D"}
               number="671"
@@ -181,7 +181,7 @@ function Market() {
           <SplideSlide>
             {" "}
             <MarketCard
-              img={"/assets/hulk.jpg"}
+              img={"/assets/coming.jpg"}
               rarity="Uncommon+"
               name={"Disney D"}
               number="671"
@@ -190,7 +190,7 @@ function Market() {
           <SplideSlide>
             {" "}
             <MarketCard
-              img={"/assets/hulk.jpg"}
+              img={"/assets/coming.jpg"}
               rarity="Uncommon+"
               name={"Disney D"}
               number="671"
@@ -199,7 +199,7 @@ function Market() {
           <SplideSlide>
             {" "}
             <MarketCard
-              img={"/assets/hulk.jpg"}
+              img={"/assets/coming.jpg"}
               rarity="Uncommon+"
               name={"Disney D"}
               number="671"
@@ -230,7 +230,7 @@ function Market() {
           <SplideSlide>
             {" "}
             <MarketCard
-              img={"/assets/hulk.jpg"}
+              img={"/assets/coming.jpg"}
               rarity="Uncommon+"
               name={"Disney D"}
               number="671"
@@ -239,7 +239,7 @@ function Market() {
           <SplideSlide>
             {" "}
             <MarketCard
-              img={"/assets/hulk.jpg"}
+              img={"/assets/coming.jpg"}
               rarity="Uncommon+"
               name={"Disney D"}
               number="671"
@@ -248,7 +248,7 @@ function Market() {
           <SplideSlide>
             {" "}
             <MarketCard
-              img={"/assets/hulk.jpg"}
+              img={"/assets/coming.jpg"}
               rarity="Uncommon+"
               name={"Disney D"}
               number="671"
@@ -257,7 +257,7 @@ function Market() {
           <SplideSlide>
             {" "}
             <MarketCard
-              img={"/assets/hulk.jpg"}
+              img={"/assets/coming.jpg"}
               rarity="Uncommon+"
               name={"Disney D"}
               number="671"
@@ -266,7 +266,7 @@ function Market() {
           <SplideSlide>
             {" "}
             <MarketCard
-              img={"/assets/hulk.jpg"}
+              img={"/assets/coming.jpg"}
               rarity="Uncommon+"
               name={"Disney D"}
               number="671"
@@ -275,7 +275,7 @@ function Market() {
           <SplideSlide>
             {" "}
             <MarketCard
-              img={"/assets/hulk.jpg"}
+              img={"/assets/coming.jpg"}
               rarity="Uncommon+"
               name={"Disney D"}
               number="671"
@@ -284,7 +284,7 @@ function Market() {
           <SplideSlide>
             {" "}
             <MarketCard
-              img={"/assets/hulk.jpg"}
+              img={"/assets/coming.jpg"}
               rarity="Uncommon+"
               name={"Disney D"}
               number="671"

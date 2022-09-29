@@ -36,23 +36,23 @@ function Feed() {
       </Splide>
       <div className="feed-grid">
         <FeedCard
-          img={"/assets/hulk.jpg"}
-          profilePic={"/assets/hulk.jpg"}
+          img={"/assets/coming.jpg"}
+          profilePic={"/assets/coming.jpg"}
           name="Nuke48"
         />
         <FeedCard
-          img={"/assets/hulk.jpg"}
-          profilePic={"/assets/hulk.jpg"}
+          img={"/assets/coming.jpg"}
+          profilePic={"/assets/coming.jpg"}
           name="Nuke48"
         />
         <FeedCard
-          img={"/assets/hulk.jpg"}
-          profilePic={"/assets/hulk.jpg"}
+          img={"/assets/coming.jpg"}
+          profilePic={"/assets/coming.jpg"}
           name="Nuke48"
         />
         <FeedCard
-          img={"/assets/hulk.jpg"}
-          profilePic={"/assets/hulk.jpg"}
+          img={"/assets/coming.jpg"}
+          profilePic={"/assets/coming.jpg"}
           name="Nuke48"
         />
       </div>

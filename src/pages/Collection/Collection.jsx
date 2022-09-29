@@ -17,7 +17,7 @@ function Collection() {
           <p>ADD</p>
           <FontAwesomeIcon icon={faGear} />
         </div>
-        <img src="/assets/hulk.jpg" alt="" />
+        <img src="/assets/coming.jpg" alt="" />
         <div className="bottom-collection-box">
           <h1>Virtual</h1>
           <div className="right-box">

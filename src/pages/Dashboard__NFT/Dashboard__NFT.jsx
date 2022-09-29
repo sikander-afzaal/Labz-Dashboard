@@ -27,22 +27,22 @@ function Dashboard__NFT() {
         aria-label="My Favorite Images"
       >
         <SplideSlide>
-          <NftSmallBox img={"/assets/hulk.jpg"} text={"Collectibles"} />
+          <NftSmallBox img={"/assets/coming.jpg"} text={"Collectibles"} />
         </SplideSlide>
         <SplideSlide>
-          <NftSmallBox img={"/assets/hulk.jpg"} text={"Collectibles"} />
+          <NftSmallBox img={"/assets/coming.jpg"} text={"Collectibles"} />
         </SplideSlide>
         <SplideSlide>
-          <NftSmallBox img={"/assets/hulk.jpg"} text={"Collectibles"} />
+          <NftSmallBox img={"/assets/coming.jpg"} text={"Collectibles"} />
         </SplideSlide>
         <SplideSlide>
-          <NftSmallBox img={"/assets/hulk.jpg"} text={"Collectibles"} />
+          <NftSmallBox img={"/assets/coming.jpg"} text={"Collectibles"} />
         </SplideSlide>
         <SplideSlide>
-          <NftSmallBox img={"/assets/hulk.jpg"} text={"Collectibles"} />
+          <NftSmallBox img={"/assets/coming.jpg"} text={"Collectibles"} />
         </SplideSlide>
         <SplideSlide>
-          <NftSmallBox img={"/assets/hulk.jpg"} text={"Collectibles"} />
+          <NftSmallBox img={"/assets/coming.jpg"} text={"Collectibles"} />
         </SplideSlide>
       </Splide>
       <div className="inventory-row">
@@ -66,25 +66,25 @@ function Dashboard__NFT() {
           aria-label="My Favorite Images"
         >
           <SplideSlide>
-            <NftBigBox img={"/assets/hulk.jpg"} text={"TNES"} />
+            <NftBigBox img={"/assets/coming.jpg"} text={"TNES"} />
           </SplideSlide>
           <SplideSlide>
-            <NftBigBox img={"/assets/hulk.jpg"} text={"TNES"} />
+            <NftBigBox img={"/assets/coming.jpg"} text={"TNES"} />
           </SplideSlide>
           <SplideSlide>
-            <NftBigBox img={"/assets/hulk.jpg"} text={"TNES"} />
+            <NftBigBox img={"/assets/coming.jpg"} text={"TNES"} />
           </SplideSlide>
           <SplideSlide>
-            <NftBigBox img={"/assets/hulk.jpg"} text={"TNES"} />
+            <NftBigBox img={"/assets/coming.jpg"} text={"TNES"} />
           </SplideSlide>
           <SplideSlide>
-            <NftBigBox img={"/assets/hulk.jpg"} text={"TNES"} />
+            <NftBigBox img={"/assets/coming.jpg"} text={"TNES"} />
           </SplideSlide>
           <SplideSlide>
-            <NftBigBox img={"/assets/hulk.jpg"} text={"TNES"} />
+            <NftBigBox img={"/assets/coming.jpg"} text={"TNES"} />
           </SplideSlide>
           <SplideSlide>
-            <NftBigBox img={"/assets/hulk.jpg"} text={"TNES"} />
+            <NftBigBox img={"/assets/coming.jpg"} text={"TNES"} />
           </SplideSlide>
         </Splide>
       </div>
@@ -109,19 +109,19 @@ function Dashboard__NFT() {
           aria-label="My Favorite Images"
         >
           <SplideSlide>
-            <NftBigBox img={"/assets/hulk.jpg"} text={"TNES"} />
+            <NftBigBox img={"/assets/coming.jpg"} text={"TNES"} />
           </SplideSlide>
           <SplideSlide>
-            <NftBigBox img={"/assets/hulk.jpg"} text={"TNES"} />
+            <NftBigBox img={"/assets/coming.jpg"} text={"TNES"} />
           </SplideSlide>
           <SplideSlide>
-            <NftBigBox img={"/assets/hulk.jpg"} text={"TNES"} />
+            <NftBigBox img={"/assets/coming.jpg"} text={"TNES"} />
           </SplideSlide>
           <SplideSlide>
-            <NftBigBox img={"/assets/hulk.jpg"} text={"TNES"} />
+            <NftBigBox img={"/assets/coming.jpg"} text={"TNES"} />
           </SplideSlide>
           <SplideSlide>
-            <NftBigBox img={"/assets/hulk.jpg"} text={"TNES"} />
+            <NftBigBox img={"/assets/coming.jpg"} text={"TNES"} />
           </SplideSlide>
         </Splide>
         <div className="inventory-row">
@@ -147,7 +147,7 @@ function Dashboard__NFT() {
             <SplideSlide>
               {" "}
               <MarketCard
-                img={"/assets/hulk.jpg"}
+                img={"/assets/coming.jpg"}
                 rarity="Uncommon+"
                 name={"Disney D"}
                 number="671"
@@ -156,7 +156,7 @@ function Dashboard__NFT() {
             <SplideSlide>
               {" "}
               <MarketCard
-                img={"/assets/hulk.jpg"}
+                img={"/assets/coming.jpg"}
                 rarity="Uncommon+"
                 name={"Disney D"}
                 number="671"
@@ -165,7 +165,7 @@ function Dashboard__NFT() {
             <SplideSlide>
               {" "}
               <MarketCard
-                img={"/assets/hulk.jpg"}
+                img={"/assets/coming.jpg"}
                 rarity="Uncommon+"
                 name={"Disney D"}
                 number="671"
@@ -174,7 +174,7 @@ function Dashboard__NFT() {
             <SplideSlide>
               {" "}
               <MarketCard
-                img={"/assets/hulk.jpg"}
+                img={"/assets/coming.jpg"}
                 rarity="Uncommon+"
                 name={"Disney D"}
                 number="671"
@@ -183,7 +183,7 @@ function Dashboard__NFT() {
             <SplideSlide>
               {" "}
               <MarketCard
-                img={"/assets/hulk.jpg"}
+                img={"/assets/coming.jpg"}
                 rarity="Uncommon+"
                 name={"Disney D"}
                 number="671"
@@ -192,7 +192,7 @@ function Dashboard__NFT() {
             <SplideSlide>
               {" "}
               <MarketCard
-                img={"/assets/hulk.jpg"}
+                img={"/assets/coming.jpg"}
                 rarity="Uncommon+"
                 name={"Disney D"}
                 number="671"
@@ -201,7 +201,7 @@ function Dashboard__NFT() {
             <SplideSlide>
               {" "}
               <MarketCard
-                img={"/assets/hulk.jpg"}
+                img={"/assets/coming.jpg"}
                 rarity="Uncommon+"
                 name={"Disney D"}
                 number="671"
@@ -232,7 +232,7 @@ function Dashboard__NFT() {
             <SplideSlide>
               {" "}
               <MarketCard
-                img={"/assets/hulk.jpg"}
+                img={"/assets/coming.jpg"}
                 rarity="Uncommon+"
                 name={"Disney D"}
                 number="671"
@@ -241,7 +241,7 @@ function Dashboard__NFT() {
             <SplideSlide>
               {" "}
               <MarketCard
-                img={"/assets/hulk.jpg"}
+                img={"/assets/coming.jpg"}
                 rarity="Uncommon+"
                 name={"Disney D"}
                 number="671"
@@ -250,7 +250,7 @@ function Dashboard__NFT() {
             <SplideSlide>
               {" "}
               <MarketCard
-                img={"/assets/hulk.jpg"}
+                img={"/assets/coming.jpg"}
                 rarity="Uncommon+"
                 name={"Disney D"}
                 number="671"
@@ -259,7 +259,7 @@ function Dashboard__NFT() {
             <SplideSlide>
               {" "}
               <MarketCard
-                img={"/assets/hulk.jpg"}
+                img={"/assets/coming.jpg"}
                 rarity="Uncommon+"
                 name={"Disney D"}
                 number="671"
@@ -268,7 +268,7 @@ function Dashboard__NFT() {
             <SplideSlide>
               {" "}
               <MarketCard
-                img={"/assets/hulk.jpg"}
+                img={"/assets/coming.jpg"}
                 rarity="Uncommon+"
                 name={"Disney D"}
                 number="671"
@@ -277,7 +277,7 @@ function Dashboard__NFT() {
             <SplideSlide>
               {" "}
               <MarketCard
-                img={"/assets/hulk.jpg"}
+                img={"/assets/coming.jpg"}
                 rarity="Uncommon+"
                 name={"Disney D"}
                 number="671"
@@ -286,7 +286,7 @@ function Dashboard__NFT() {
             <SplideSlide>
               {" "}
               <MarketCard
-                img={"/assets/hulk.jpg"}
+                img={"/assets/coming.jpg"}
                 rarity="Uncommon+"
                 name={"Disney D"}
                 number="671"
